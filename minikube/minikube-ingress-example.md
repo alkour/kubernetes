@@ -1,3 +1,3 @@
 ##Enable ingress addon
 
->minikube addons enable ingress
+minikube addons enable ingress
