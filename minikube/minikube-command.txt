@@ -1,0 +1,23 @@
+https://minikube.sigs.k8s.io/docs/start/
+What you’ll need: 2 CPUs or more, 2GB of free memory, 20GB of free disk space
+
+>minikube start
+>minikube status
+
+>kubectl config get-context //To see context
+>kubectl config use-context docker-for-desktop // You can use kubectx -to make shorter
+
+>minikube dashboard //Run this command in new terminal
+
+>minikube pause
+>minikube unpause
+>minikube stop                                      //Halt minikube
+>minikube config set memory 9001                    //Change the default memory limit (requires a restart):
+>minikube addons list                               //Installed addons
+
+>minikube start -p aged --kubernetes-version=v1.16.1    //minikube start -p aged --kubernetes-version=v1.16.1
+>minikube delete --all                                  //Delete all of the minikube clusters
+
+
+
+
