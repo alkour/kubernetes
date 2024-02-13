@@ -1,2 +1,2 @@
 rootProject.name = "kubernetes"
-include("springBoot-to-kuber")
+include("springboot-to-kuber")
